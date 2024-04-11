@@ -6,9 +6,6 @@ function AddTodo()
 
     const {arrActivity,setArrActivity} = useContext(arrContext)
 
-    console.log(arrActivity)
-    console.log(setArrActivity)
-
     const [evalue,setEValue] = useState("")
 
     function handleevalue(evt)
